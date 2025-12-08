@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hhebftp71amr"
-path="res://.godot/imported/rebel.jpg-8a7fb8262ebe82b3269b42bfc6a07a1d.ctex"
+uid="uid://c7xfkat67we6j"
+path="res://.godot/imported/rebel.jpg-b94d12cb19493f3a02d65d55d57ad4d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/rebel.jpg"
-dest_files=["res://.godot/imported/rebel.jpg-8a7fb8262ebe82b3269b42bfc6a07a1d.ctex"]
+source_file="res://Game/Images/rebel.jpg"
+dest_files=["res://.godot/imported/rebel.jpg-b94d12cb19493f3a02d65d55d57ad4d4.ctex"]
 
 [params]
 

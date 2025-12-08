@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2nfw51hvu1m"
-path="res://.godot/imported/prince.png-af020fb3e9ae32e6ddc58839ddb9060b.ctex"
+uid="uid://mo08cte87i7e"
+path="res://.godot/imported/rebel_normal.jpg-2d05c11a53adfe2b67feb4fec6322172.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Images/prince.png"
-dest_files=["res://.godot/imported/prince.png-af020fb3e9ae32e6ddc58839ddb9060b.ctex"]
+source_file="res://Game/Images/rebel_normal.jpg"
+dest_files=["res://.godot/imported/rebel_normal.jpg-2d05c11a53adfe2b67feb4fec6322172.ctex"]
 
 [params]
 

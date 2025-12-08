@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2nfw51hvu1m"
-path="res://.godot/imported/prince.png-af020fb3e9ae32e6ddc58839ddb9060b.ctex"
+uid="uid://bkcj4m1udecqu"
+path="res://.godot/imported/killer_normal.jpg-93765dc1149fc336cacc5a8b9b1ba2d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Images/prince.png"
-dest_files=["res://.godot/imported/prince.png-af020fb3e9ae32e6ddc58839ddb9060b.ctex"]
+source_file="res://Game/Images/killer_normal.jpg"
+dest_files=["res://.godot/imported/killer_normal.jpg-93765dc1149fc336cacc5a8b9b1ba2d6.ctex"]
 
 [params]
 
