@@ -21,9 +21,13 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"Kokoro": "res://Game/Dialogic_Characters/Kokoro.dch"
+}
 directories/dtl_directory={
-"timeline_1": "res://Game/Timelines/timeline_1.dtl"
+"timeline_1": "res://Game/Timelines/timeline_1.dtl",
+"timeline_ryoutaro": "res://Game/Timelines/timeline_ryoutaro.dtl",
+"timeline_yuki": "res://Game/Timelines/timeline_yuki.dtl"
 }
 layout/style_directory={
 "": "res://Game/Style/Visual_Novel.tres",
