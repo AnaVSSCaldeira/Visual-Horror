@@ -1,0 +1,40 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(0.18365479, 0.69140625, 0, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "Visual_Novel",
+"suffix": ""
+},
+&"default_portrait": "Normal",
+&"description": "",
+&"display_name": "Desconhecido",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"Ataque": {
+"export_overrides": {
+"image": "\"res://Game/Images/Characters/assassin_attack.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Normal": {
+"export_overrides": {
+"image": "\"res://Game/Images/Characters/assassin.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

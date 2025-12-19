@@ -1,11 +1,11 @@
 join Kokoro center
 Kokoro (Normal): Olá, meu nome é Momoko, deusa dos seres abissais que vivem em dor e sofrimento!
-Kokoro (Envergonhada): que vive debaixo dágua, respirando por aparelhos.
+Kokoro: que vive debaixo dágua, respirando por aparelhos.
 - Yuki
 	leave Kokoro
-	join Kokoro (Feliz) right
+	join Kokoro (Feliz) center
 	jump timeline_yuki/
 - Ryoutaro
 	leave Kokoro
-	join Kokoro (Feliz) left
+	join Kokoro (Feliz) center
 	jump timeline_ryoutaro/

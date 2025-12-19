@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 &"_translation_id": "",
-&"color": Color(0.875, 0, 1, 1),
+&"color": Color(1, 0, 0, 1),
 &"custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -12,23 +12,23 @@
 },
 &"default_portrait": "Normal",
 &"description": "",
-&"display_name": "Kokoro",
+&"display_name": "Ryoutaro",
 &"mirror": false,
-&"nicknames": ["Kok"],
+&"nicknames": ["Ry"],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"Bocejando": {
+"Assustado": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist_yawning.png\""
+"image": "\"res://Game/Images/Characters/rebel_scared.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Envergonhada": {
+"Envergonhado": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist_blushing.png\""
+"image": "\"res://Game/Images/Characters/rebel_blushing.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -37,7 +37,7 @@
 },
 "Feliz": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist_happy.png\""
+"image": "\"res://Game/Images/Characters/rebel_feliz.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -46,25 +46,25 @@
 },
 "Normal": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist.png\""
+"image": "\"res://Game/Images/Characters/rebel.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Preocupada": {
+"Raivoso": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist_worried.png\""
+"image": "\"res://Game/Images/Characters/rebel_angry.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Triste": {
+"Surpreso": {
 "export_overrides": {
-"image": "\"res://Game/Images/Characters/protagonist_sad.png\""
+"image": "\"res://Game/Images/Characters/rebel_surprise.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
