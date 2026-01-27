@@ -1,0 +1,29 @@
+join Kokoro (Feliz) center
+Kokoro: Ah! Agora sim estou mais aliviada!
+~~ Tira do bolso uma carta ~~
+Kokoro: Consegui te guardar com cuidado, sem niguém descobrir! ~~hehe~~
+Kokoro (Envergonhada): Bem, agora é melhor eu voltar para sala e entregar logo isso…estou tão nervosa…
+Andando pelo corredor você vê Yuki e Ryoutaro conversando com um professor.
+Aparentemente, o segundo garoto está recebendo um sermão, enquanto o primeiro está aguardando para para continuar suas tarefas curriculares.
+Kokoro: Eh! E-ele já está aqui! Caramba…Isso é o que eles chamam de oportunidade divina??
+Kokoro: Vou aproveitar então! Vou só esperar o professor ir embora…
+Algum tempo depois…
+Kokoro: Ah! O professor já se foi! Agora é a hora…Eu tenho que entregar essa carta para o…
+- Yuki
+	Kokoro (Feliz): Yuki-kun…Isso! Vou falar com ele!
+	Você se aproxima do rapaz tranquilo.
+	Kokoro (Envergonhada): Yuki-kun! Depois da aula você poderia me encontrar no pátio atrás da escola? Eu preciso muito falar com você…
+	join Yuki (Surpreso) right
+	Yuki: Ah! Kokoro? Você está melhor? Me desculpe pela confusão mais cedo!
+	Yuki (Feliz): Mas respondendo a sua pergunta…claro que posso, sem problemas!
+	Kokoro (Feliz): Ah! Que bom! Combinado!
+	jump timeline_yuki/
+- Ryoutaro
+	Kokoro (Feliz): Ryo-chan…Isso! Vou falar com ele!
+	Você se aproxima do rapaz inquieto.
+	Kokoro (Envergonhada): Hey Ryo-chan! Antes de irmos para casa, poderia me encontrar no pátio atrás da escola? Eu preciso muito falar com você…
+	join Ryoutaro (Normal) left
+	Ryoutaro: Que conversa é essa? Falando desse jeito estranho com seu amigo de infância…
+	Ryoutaro (Envergonhado): Meio esquisito, mas tudo bem, eu vou.
+	Kokoro (Feliz): Ah! Fico feliz, estamos combinados então!
+	jump timeline_ryoutaro/

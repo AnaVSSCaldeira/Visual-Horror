@@ -1,11 +1,32 @@
-join Kokoro center
-Kokoro (Normal): Olá, meu nome é Momoko, deusa dos seres abissais que vivem em dor e sofrimento!
-Kokoro: que vive debaixo dágua, respirando por aparelhos.
-- Yuki
-	leave Kokoro
-	join Kokoro (Feliz) center
-	jump timeline_yuki/
-- Ryoutaro
-	leave Kokoro
-	join Kokoro (Feliz) center
-	jump timeline_ryoutaro/
+Em uma cidade no sudeste japonês, vive uma garota jovem e alegre chamada Kokoro.
+Ela vive nessa cidade desde pequena e hoje ela retorna para sua escola depois das suas férias de verão.
+Na sala de aula, durante o intervalo ela fica pensativa sobre as coisas que fizera nas férias.
+Enquanto isso, seu amigo de infância Ryoutarou está dormindo logo atrás dela. Mas também há outro garoto que está prestando atenção...
+join Kokoro (Bocejando) center
+Kokoro: Waaaa! Estou tão cansada…deveria ter ido dormir mais cedo ontem…
+Kokoro (Feliz): Mas até que valeu a pena tanto trabalho ~~hehe~~ pelo menos eu consegui terminar a tempo!
+join Yuki (Normal) right
+Yuki: Hum? O que você conseguiu terminar a tempo?
+- Perguntar se ele estava te ouvindo.
+ Kokoro (Envergonhada): Eh-eh! Yu-Yuki-kun! Você estava me ouvindo?
+ Yuki (Surpreso): Anh…me desculpe! Eu sem querer acabei te escutando…Fiz mal em fazer isso?
+- Perguntar se estava falando muito alto
+ Kokoro (Envergonhada): N-nada de mais! Eu estava falando muito alto?
+ Yuki (Surpreso): De forma alguma! Foi minha culpa em ter te escutado sem sua permissão, me desculpe.
+Kokoro (Envergonhada): N-não! Sem problemas! Eu que estava falando alto mesmo!
+join Ryoutaro (Irritado) left
+Ryoutaro: Pois é! Estava falando tão alto que me acordou da minha soneca!
+- Falar que ele estava dormindo também
+ Kokoro (Envergonhada): Eh?? Eu falei tão alto assim? Mas espera ai Ryou-chan! Você não deveria estar dormindo durante a au-
+ Ryoutaro (Normal): Chaaaaataa…estamos no intervalo agora, então está tudo bem.
+- Pedir desculpas
+ Kokoro (Envergonhada): De-desculpe…eu vou controlar minha voz da próxima ve-
+ Ryoutaro (Normal): Qual o seu problema? Você não pode sair se desculpando assim tão fácil, idiota.
+Yuki (Ameaçador): Ryoutaro-kun você deveria ser mais educado com as garotas.
+Yuki: Além disso eu estava falando com a Kokoro primeiro.
+Ryoutaro (Irritado): Quem é você para me dizer o que fazer hein, donzela?
+Yuki: Don-donzela!?
+Kokoro (Preocupada): H-Hey! Vocês dois! Parem já com isso! E-eu vou sair para beber alguma coisa!
+leave --All--
+[wait time="1.0"]
+jump timeline_2/

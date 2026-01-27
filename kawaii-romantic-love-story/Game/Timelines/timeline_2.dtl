@@ -1,0 +1,8 @@
+join Kokoro (Triste) center
+Kokoro: Caramba…aqueles dois não se entendem mesmo…me deixam tão nervosa…ainda bem que a desculpa do suco deu certo, precisava sair dali logo!
+Kokoro (Envergonhada): Bem…mas há uma coisa mais importante que eu preciso me preocupar…eu quase falei em voz alta sobre…
+Kokoro (Normal): É melhor eu parar de pensar sobre isso, se não posso acabar cometendo o mesmo erro de novo!
+Kokoro (Feliz): Agora que estou sozinha, posso ir no meu armário pegar…aquilo ~~hehe~~
+leave Kokoro
+[wait time="1.0"]
+jump timeline_3/
