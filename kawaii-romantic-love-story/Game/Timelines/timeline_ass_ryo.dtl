@@ -1,0 +1,37 @@
+join Kokoro (Feliz) center
+join Ryoutaro (Normal) right
+Kokoro: Caramba!! Jogamos tanto que acabamos ficando lá um tempão ne!
+Ryoutaro: Quando a gente era criança também acontecia isso, mas a diferença é que nossas mães iam até lá nos buscar…que bom que agora somos só nós.
+Kokoro (Envergonhada): H-haha! Concordo!
+Kokoro (Feliz): Hum…Ryou-chan, podemos caminhar um pouco mais antes de ir para casa? Eu estou realmente feliz com o dia de hoje e gostaria de ficar mais um pouco com você, se estivesse tudo bem…
+Ryoutaro (Envergonhado): Hunf! De novo falando desse jeito esquisito! Vamos logo, qual o lugar?
+Kokoro: Gostaria de caminhar pelo parque…dizem que lá está cheio de enfeites bonitos!
+Ryoutaro (Normal): Hum…um parque enfeitado, por que não? Vamos.
+Vocês chegam no parque e observam os lindos enfeites que iluminam tudo a sua volta. Apesar do ambiente estar deserto, as luzes fazem o lugar ficar aconchegante.
+Kokoro: Que lindo! Os boatos realmente eram verdadeiros não é?
+Ryoutaro: Hum…Eu não acho…Tem uma coisa muita mais bonita que essas luzinhas…
+Kokoro (Envergonhada):  E-Eh? Como assim? O que tem aqui de tão bonito?
+Ryoutaro (Feliz): Estou olhando para ela.
+Kokoro: E-Eh!!!! E-E-E-Eu preciso ir no banheiro rapidinho! Desculpa mesmo Ryou-chan, dá pra você me esperar?
+Ryoutaro (Feliz): Ha! Já ficou sem jeito? Isso é bem a sua cara. Vai lá, vou ficar aqui.
+leave Kokoro
+update Ryoutaro (Normal)
+...
+...
+Algum tempo se passa desde que Kokoro foi ao banheiro.
+Yuki: Aquela garota…Ela não costuma demorar tanto assim…
+Antes que Ryoutaro pudesse pensar em mais alguma coisa, ele escuta o grito de Kokoro não muito distante dali.
+Ryoutaro (Surpreso): Kokoro?! Em que merda ela se meteu agora??
+Ao chegar próximo ao banheiro, Yuki percebe que está mais escuro que o normal. Olhando melhor a sua frente, ele testemunha uma cena assustadora\:
+Uma poça de sangue, junto com o laço de cabelo que Kokoro estava usando.
+Ryoutaro (Assustado): Sangue…!
+join Assassino (Normal) left
+Assassino: HAHA, UAU temos um espertinho por aqui! Parabéns!
+Ryoutaro: ...
+Assassino: Então aquela garota estava acompanhada…Que bom! Assim a minha noite não terminará tão sem graça!
+Ryoutaro (Irritado): Desgraçado! Que merda você fez com a Kokor-
+Assassino: Cala a boca! Não é óbvio? Eu matei aquela garota no momento que ela ficou sozinha, foi bem fácil até!
+Assassino: Ela nem reagiu muito, só ficou um pouco assustada e deu um grito…mas acho que só quem estivesse aqui dentro poderia ouvir…ou seja…
+Assassino (Ataque): SÓ VOCÊ S2
+leave --All-- [animation="Instant Out"]
+POW

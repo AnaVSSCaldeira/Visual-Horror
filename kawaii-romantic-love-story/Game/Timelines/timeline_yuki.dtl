@@ -1,3 +1,22 @@
-join Yuki (Normal) right [animation="Bounce In"]
-Yuki: Oi eu sou o Yuki!
-Yuki (Ameaçador): Vai embora
+Após a escola você chega ao local marcado. Sua companhia já está te esperando.
+join Kokoro (Envergonhada) center
+Kokoro: Yuki-kun! Desculpe o atraso!
+join Yuki (Normal) right
+Yuki: Sem problemas, eu também acabei de chegar. Então, o que deseja falar comigo?
+Kokoro: Bem…eu quero te entregar isso!
+~~ Tira a carta do seu bolso e entrega para o garoto ~~
+Yuki (Surpreso): ...
+Yuki (Surpreso): ...
+Yuki (Surpreso): ...
+Yuki (Envergonhado): Vo-Você gosta de mim? Eu estou sem palavras! Estou tão feliz! Mas você realmente está falando sério?
+Kokoro: ...
+Yuki: Entendi, me desculpe duvidar de você…
+Yuki (Feliz): Bem, sobre minha reposta…eu fiquei imensamente honrado  com sua declaração e quero muito ser seu namorado.
+Kokoro (Feliz): Sério?? Que bom!! Fico muito feliz em ouvir isso! Na verdade, eu estava tão animada para hoje que já tinha deixado preparado um encontro! Vamos?
+Yuki (Envergonhado): Você já planejou? E eu nem pensei em nada…
+Yuki (Normal): Bem, podemos ir mas vamos priorizar voltar ainda de dia, pois ouvi uns boatos que essa região tem estado bem perigosa de uns tempos para cá…
+Kokoro: Sem problemas! Por que não vamos ao shopping da Rua 7? Podemos passear, comer alguma coisa…Temos várias possibilidades!
+Yuki (Feliz): Boa ideia! vamos então?
+Kokoro (Feliz): Sim! Só vou pegar minha mochila, já venho!
+leave --All--
+jump timeline_ass_yuki/

@@ -1,0 +1,37 @@
+join Kokoro (Feliz) center
+join Yuki (Feliz) right
+Kokoro: Caramba!! Fizemos tanta coisa que acabamos perdendo a hora!
+Yuki: É…acho que acontece quando estamos com as pessoas que gostamos né? Perdemos a hora haha!
+Kokoro (Envergonhada): Ééééé!
+Kokoro (Feliz): Hum…Yuki-kun, podemos caminhar um pouco mais antes de ir para casa? Eu estou realmente feliz com o dia de hoje e gostaria de ficar mais um pouco com você, se pudesse…
+Yuki (Surpreso): Eh! C-Claro! Fico feliz em ouvir isso, para onde iremos então?
+Kokoro: Gostaria de caminhar pelo parque…dizem que lá está cheio de enfeites bonitos!
+Yuki (Feliz): Entendo…Uma ótima sugestão, vamos então?
+Vocês chegam no parque e observam os lindos enfeites que iluminam tudo a sua volta. Apesar do ambiente estar deserto, as luzes fazem o lugar ficar aconchegante.
+Kokoro: Que lindo! Os boatos realmente eram verdadeiros não é?
+Yuki (Feliz): Sim! É muito bonita…realmente…
+Kokoro (Envergonhada): E-Eh? Bonita? Poxa Yuki-kun, deveria dizer “bonitas”, né? Já que são várias luzes…
+Yuki (Normal): Mas quem disse que eu estava me referindo a elas…?
+Kokoro: E-Eh!!!! E-E-E-Eu preciso ir no banheiro rapidinho! Desculpa mesmo Yuki-kun, dá pra você me esperar?
+Yuki (Feliz): Ah! haha! Claro, pode ir, estarei aqui lhe aguardando.
+leave Kokoro
+update Yuki (Normal)
+...
+...
+Algum tempo se passa desde que Kokoro foi ao banheiro.
+Yuki: Hum…ela está demorando…será que algo aconteceu com ela?
+Antes que Yuki pudesse pensar em mais alguma coisa, ele escuta o grito de Kokoro não muito distante dali.
+Yuki (Surpreso): Ko-Kokoro?! Alguma coisa deve ter acontecido! Tenho que ir lá ver!
+Ao chegar próximo ao banheiro, Yuki percebe que está mais escuro que o normal. Olhando melhor a sua frente, ele testemunha uma cena assustadora\:
+Uma poça de sangue, junto com o laço de cabelo que Kokoro estava usando.
+Yuki (Assustado): O-O que? I-I-Isso é san-sangue…
+join Assassino (Normal) left
+Assassino: HAHA, está com problemas na língua??
+Yuki: ...
+Assassino: Então aquela garota estava acompanhada…Que bom! Assim a minha noite não terminará tão sem graça!
+Yuki (Serio): O que você quer dizer com isso? O que você fez com a Kokor-
+Assassino: Cala a boca! Não é óbvio? Eu matei aquela garota no momento que ela ficou sozinha, foi bem fácil até!
+Assassino: Ela nem reagiu muito, só ficou um pouco assustada e deu um grito…mas acho que só quem estivesse aqui dentro poderia ouvir…ou seja…
+Assassino (Ataque): SÓ VOCÊ S2
+leave --All-- [animation="Instant Out"]
+POW

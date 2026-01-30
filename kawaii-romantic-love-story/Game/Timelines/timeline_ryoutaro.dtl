@@ -1,3 +1,22 @@
-join Ryoutaro (Normal) left [animation="Instant In"]
-Ryoutaro: Oi eu sou o Ryoutaro!
-Ryoutaro (Envergonhado): Tudo bem?
+Após a escola você chega ao local marcado. Sua companhia já está te esperando.
+join Kokoro (Envergonhada) center
+Kokoro: Ryo-chan! Desculpe o atraso!
+join Ryoutaro (Normal) right
+Ryoutaro: Hunf! Eu já estou acostumado com você lenta desse jeito desde criança. Desenbucha ai.
+Kokoro: Bem…eu quero te entregar isso!
+~~ Tira a carta do seu bolso e entrega para o garoto ~~
+Ryoutaro (Surpreso): ...
+Ryoutaro (Surpreso): ...
+Ryoutaro (Envergonhado): ...
+Ryoutaro (Envergonhado): Qu-Que! Você gosta de mim? Qu-Quem seria idiota o bastante para gostar de mim?
+Kokoro: ...
+Ryoutaro: E-Entendi…Só você mesmo…realmente…
+Ryoutaro (Feliz): Hunf, sobre a resposta…tudo bem, eu aceito, alguém precisa cuidar de você mesmo…e eu me encarregarei disso.
+Kokoro (Feliz): Sério?? Que bom!! Fico muito feliz em ouvir isso! Na verdade, eu estava tão animada para hoje que já tinha deixado preparado um encontro! Vamos?
+Ryoutaro (Envergonhado): Que? Você é doida? E se eu dissesse não?
+Ryoutaro (Normal): Hunf, deixa pra lá…Vamos então, só não quero ficar até tão tarde porque estão dizendo por aí que as ruas tem estado bem perigosas esses tempos…
+Kokoro: Sem problemas! Por que não vamos ao fliperama da Rua 7? Costumávamos ir muito lá quando éramos mais novos!
+Ryoutaro (Feliz): Ok, adoro esse lugar por me proporcionar a te ganhar em vários jogos diferentes, haha
+Kokoro (Feliz): Chato! Dessa vez eu que vou ganhar, só espera para ver!
+leave --All--
+jump timeline_ass_ryo/

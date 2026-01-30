@@ -1,6 +1,140 @@
-[gd_scene load_steps=2 format=3 uid="uid://bervma0yolsgs"]
+[gd_scene format=3 uid="uid://bervma0yolsgs"]
 
 [ext_resource type="Script" uid="uid://dyxsl602ujbnl" path="res://Game/Scripts/main_game.gd" id="1_mguw1"]
+[ext_resource type="Script" uid="uid://b05u3yejpjj2r" path="res://Game/Scripts/hud_cams.gd" id="2_bqlnx"]
+[ext_resource type="Texture2D" uid="uid://gjpcd8024pkw" path="res://Game/Images/UI/Cam_video_1.png" id="3_4t65r"]
+[ext_resource type="Shader" uid="uid://c672xg18l7com" path="res://Game/Shaders/camera.gdshader" id="3_iu62s"]
+[ext_resource type="Texture2D" uid="uid://dyjhhjnny7g2v" path="res://Game/Images/Cenary/OfficeEmpty.webp" id="3_movuj"]
+[ext_resource type="Texture2D" uid="uid://bktr456yk5qx1" path="res://Game/Images/UI/circle.png" id="4_movuj"]
+[ext_resource type="Texture2D" uid="uid://cxq1pmq13qery" path="res://Game/Images/UI/Cam_1.png" id="5_14tfe"]
+[ext_resource type="Texture2D" uid="uid://ce8811bxy6cxc" path="res://Game/Images/UI/Cam_2.png" id="6_lsof6"]
+[ext_resource type="Texture2D" uid="uid://wkobumxi2is3" path="res://Game/Images/UI/Cam_3.png" id="7_lsof6"]
+[ext_resource type="Texture2D" uid="uid://bspl3qr2xfkog" path="res://Game/Images/UI/Cam_4.png" id="8_u6hjo"]
+[ext_resource type="Texture2D" uid="uid://cev8i5ucl5imi" path="res://Game/Images/UI/show_cams.png" id="9_4t65r"]
+[ext_resource type="Script" uid="uid://cuqg52yhpfq7p" path="res://Game/Scripts/camera_2d.gd" id="11_53bbp"]
 
-[node name="Main_Game" type="Node2D"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j17tf"]
+shader = ExtResource("3_iu62s")
+shader_parameter/overlay = false
+shader_parameter/scanlines_opacity = 0.4
+shader_parameter/scanlines_width = 0.25
+shader_parameter/grille_opacity = 0.3
+shader_parameter/resolution = Vector2(640, 480)
+shader_parameter/pixelate = true
+shader_parameter/roll = true
+shader_parameter/roll_speed = 8.0
+shader_parameter/roll_size = 15.0
+shader_parameter/roll_variation = 1.8
+shader_parameter/distort_intensity = 0.05
+shader_parameter/noise_opacity = 0.4
+shader_parameter/noise_speed = 5.0
+shader_parameter/static_noise_intensity = 0.06
+shader_parameter/aberration = 0.03
+shader_parameter/brightness = 1.4
+shader_parameter/discolor = true
+shader_parameter/warp_amount = 1.0
+shader_parameter/clip_warp = false
+shader_parameter/vignette_intensity = 0.4
+shader_parameter/vignette_opacity = 0.5
+
+[node name="Main_Game" type="Node2D" unique_id=1085549422]
 script = ExtResource("1_mguw1")
+
+[node name="Hud_cams" type="CanvasLayer" parent="." unique_id=1465409963]
+visible = false
+script = ExtResource("2_bqlnx")
+
+[node name="Camera_interface" type="TextureRect" parent="Hud_cams" unique_id=1305474156]
+offset_right = 3999.9949
+offset_bottom = 2249.997
+scale = Vector2(0.48000062, 0.48000062)
+texture = ExtResource("3_4t65r")
+
+[node name="ColorRect" type="ColorRect" parent="Hud_cams" unique_id=1656408615]
+material = SubResource("ShaderMaterial_j17tf")
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="1" type="TextureButton" parent="Hud_cams" unique_id=1316807466]
+offset_left = 1594.0
+offset_top = 797.0
+offset_right = 1694.0
+offset_bottom = 897.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("5_14tfe")
+
+[node name="2" type="TextureButton" parent="Hud_cams" unique_id=1705187713]
+offset_left = 1753.0
+offset_top = 795.0
+offset_right = 1853.0
+offset_bottom = 895.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("6_lsof6")
+
+[node name="3" type="TextureButton" parent="Hud_cams" unique_id=1704267572]
+offset_left = 1602.0
+offset_top = 918.0
+offset_right = 1702.0
+offset_bottom = 1018.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("7_lsof6")
+
+[node name="4" type="TextureButton" parent="Hud_cams" unique_id=1215994328]
+offset_left = 1756.0
+offset_top = 921.0
+offset_right = 1856.0
+offset_bottom = 1021.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("8_u6hjo")
+
+[node name="Office" type="Control" parent="." unique_id=122092554]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Office" unique_id=271137801]
+position = Vector2(958, 540)
+scale = Vector2(2.4000003, 2.3999999)
+texture = ExtResource("3_movuj")
+
+[node name="TextureButton" type="TextureButton" parent="Office" unique_id=1915719986]
+layout_mode = 0
+offset_left = 1945.0
+offset_top = 611.0
+offset_right = 1995.0
+offset_bottom = 661.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_movuj")
+
+[node name="TextureButton2" type="TextureButton" parent="Office" unique_id=2098614097]
+layout_mode = 0
+offset_left = -68.0
+offset_top = 611.0
+offset_right = -18.0
+offset_bottom = 661.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_movuj")
+
+[node name="Cams_button" type="CanvasLayer" parent="." unique_id=468822280]
+visible = false
+
+[node name="Show_cams" type="TextureButton" parent="Cams_button" unique_id=340712687]
+offset_left = 588.0
+offset_top = 961.0
+offset_right = 1288.0
+offset_bottom = 1061.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("9_4t65r")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=465586964 node_paths=PackedStringArray("background")]
+visible = false
+position = Vector2(960, 540)
+script = ExtResource("11_53bbp")
+move_speed = 650.0
+background = NodePath("../Office/Sprite2D")
+
+[connection signal="pressed" from="Cams_button/Show_cams" to="." method="_on_show_cams_pressed"]

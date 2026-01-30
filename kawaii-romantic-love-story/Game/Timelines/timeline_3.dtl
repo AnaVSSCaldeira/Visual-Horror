@@ -17,6 +17,7 @@ Kokoro: Ah! O professor já se foi! Agora é a hora…Eu tenho que entregar essa
 	Yuki: Ah! Kokoro? Você está melhor? Me desculpe pela confusão mais cedo!
 	Yuki (Feliz): Mas respondendo a sua pergunta…claro que posso, sem problemas!
 	Kokoro (Feliz): Ah! Que bom! Combinado!
+	leave --All--
 	jump timeline_yuki/
 - Ryoutaro
 	Kokoro (Feliz): Ryo-chan…Isso! Vou falar com ele!
@@ -26,4 +27,5 @@ Kokoro: Ah! O professor já se foi! Agora é a hora…Eu tenho que entregar essa
 	Ryoutaro: Que conversa é essa? Falando desse jeito estranho com seu amigo de infância…
 	Ryoutaro (Envergonhado): Meio esquisito, mas tudo bem, eu vou.
 	Kokoro (Feliz): Ah! Fico feliz, estamos combinados então!
+	leave --All--
 	jump timeline_ryoutaro/

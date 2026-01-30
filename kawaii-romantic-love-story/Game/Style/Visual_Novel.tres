@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogicStyle" load_steps=21 format=3 uid="uid://cjtp4hidl36y1"]
+[gd_resource type="Resource" script_class="DialogicStyle" format=3 uid="uid://cjtp4hidl36y1"]
 
 [ext_resource type="PackedScene" uid="uid://cqpb3ie51rwl5" path="res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn" id="1_imv10"]
 [ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_2vya5"]
@@ -31,6 +31,11 @@ scene = ExtResource("5_xy28k")
 [sub_resource type="Resource" id="Resource_5f68b"]
 script = ExtResource("2_2vya5")
 scene = ExtResource("6_5cshn")
+overrides = {
+"box_size": "Vector2(600, 200)",
+"text_size": "25.0",
+"text_use_global_size": "false"
+}
 
 [sub_resource type="Resource" id="Resource_nynn8"]
 script = ExtResource("2_2vya5")
@@ -39,6 +44,10 @@ scene = ExtResource("7_vxqtn")
 [sub_resource type="Resource" id="Resource_45baa"]
 script = ExtResource("2_2vya5")
 scene = ExtResource("8_1ou78")
+overrides = {
+"font_size_custom": "25.0",
+"font_size_use_global": "false"
+}
 
 [sub_resource type="Resource" id="Resource_vomip"]
 script = ExtResource("2_2vya5")
@@ -63,4 +72,4 @@ layer_info = {
 "16": SubResource("Resource_vomip"),
 "17": SubResource("Resource_4aw2j")
 }
-metadata/_latest_layer = "15"
+metadata/_latest_layer = "10"
